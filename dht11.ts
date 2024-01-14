@@ -12,7 +12,7 @@ namespace DHT11 {
     let _humidity: number = -999.0
     let _readSuccessful: boolean = false
     let _sensorresponding: boolean = false
-    let dht11Pin: DigitalPin = DigitalPin.A1_RX
+    let dht11Pin: DigitalPin = 116
     let dht11startTime: number = 0
     let dht11WaitTime: number = 2000
 
